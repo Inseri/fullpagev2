@@ -1,0 +1,273 @@
+/* Initialize*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Trebuchet MS", Arial, Helvetica;
+}
+
+
+/*Structure*/
+
+body {
+    background-color: #FFFFFF;
+}
+
+.mainframe {
+    width: 100%;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+header {
+    text-align: center;
+    width: 100%;
+    height: 300px;
+    background: url("back.png") no-repeat;
+    background-size: cover;
+}
+
+nav {
+    text-align: center;
+    width: 100%;
+    height: 60px;
+    background-color: #FF6767;
+    box-shadow: 0px 10px 5px #CCCCCC;
+}
+
+.navbtn {
+    width: 150px;
+    height: 60px;
+    margin-left: -3px;
+    margin-right: -3px;
+    background-color: #FF6767;
+    color: #FFFFFF;
+    display: inline-block;
+}
+
+.main {
+    display: inline-block;
+    text-align: center;
+    width: 980px;
+    padding-top: 20px;
+}
+
+.pictframe {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pict {
+    margin-right: 12px;
+}
+
+.table2 {
+    display: flex;
+    text-align: center;
+    list-style-type: none;
+}
+
+.dim {
+    width: 500px;
+    position: absolute;
+}
+
+.posiconom {
+    position: absolute;
+    top: 15px;
+    left: -10px;
+}
+
+.posicomai {
+    position: absolute;
+    top: 85px;
+    left: -10px;
+}
+
+.posicopho {
+    position: absolute;
+    top: 155px;
+    left: -10px;
+}
+
+.posicocom {
+    position: absolute;
+    top: 225px;
+    left: -10px;
+}
+
+.ft1 {
+    width: 450px;
+    height: 60px;
+    margin-bottom: 10px;
+    padding-left: 50px;
+}
+
+.ft2 {
+    width: 450px;
+    height: 170px;
+    padding-top: 18px;
+    padding-left: 50px;
+}
+
+.ft3 {
+    margin-top: 25px;
+    margin-left: 50px;
+    width: 250px;
+    height: 50px;
+    border: 3px solid #AA22FF;
+    background-color: #AA22FF;
+    border-radius: 25px;
+    font-size: 1.375rem;
+    color: #FFFFFF;
+    box-shadow: 0px 20px 40px #444444;
+}
+
+footer {
+    text-align: center;
+    width: 100%;
+    height: 120px;
+    background-color: #0099FF;
+    color: #FFFFFF;
+    margin-top: 150px;
+    font-size: 3.75rem;
+    padding-top: 40px;
+}
+
+#btn1 {
+    border-left: 2px solid #FFFFFF;
+}
+
+#btn2 {
+    border-left: 2px solid #FFFFFF;
+    border-right: 2px solid #FFFFFF;
+}
+
+#btn3 {
+    border-left: 2px solid #FFFFFF;
+    border-right: 2px solid #FFFFFF;
+}
+
+
+/*Text Format*/
+
+#square {
+    font-size: 2.5rem;
+    color: #CCCCCC;
+}
+
+#ico {
+    font-size: 2rem;
+    color: #CCCCCC;
+    margin-left: 50px;
+}
+
+h1 {
+    font-size: 3.75rem;
+    padding-top: 80px;
+}
+
+h2 {
+    font-size: 2.25rem;
+}
+
+h3 {
+    font-size: 1.375rem;
+    padding-top: 15px;
+}
+
+section {
+    text-align: left;
+}
+
+section h2 {
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.bold {
+    font-weight: bold;
+    font-size: 1.125rem;
+    padding-top: 10px;
+    text-align: left;
+}
+
+.normlist {
+    font-size: 1rem;
+    padding-bottom: 15px;
+    text-align: left;
+}
+
+p {
+    font-size: 1rem;
+}
+
+i {
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+span {
+    margin-right: 1%;
+}
+
+.stdtxt {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+
+/*hovers*/
+
+.navbtn:hover {
+    background-color: #000000;
+    box-shadow: 0px 10px 5px #444444;
+}
+
+.ft3:hover {
+    border: 3px solid #AA22FF;
+    background-color: #FF22FF;
+}
+
+
+/*links*/
+
+a:link {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+a:visited {
+    color: #FFFFFF;
+}
+
+
+/*animations*/
+
+.blink {
+    animation: blink-animation 0.7s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
+}
+
+.blinking {
+    animation-name: blk;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes blk {
+    from {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.3;
+    }
+    to {
+        opacity: 1;
+    }
+}

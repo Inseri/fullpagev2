@@ -1,0 +1,103 @@
+/*Structure*/
+
+header {
+    height: 150px;
+    background-size: cover;
+}
+
+.navbtn {
+    width: 33%;
+    height: 60px;
+}
+
+.imgb {
+    width: 90%;
+    height: auto;
+}
+
+.table2 {
+    display: block;
+    text-align: center;
+    list-style-type: none;
+}
+
+.dim {
+    width: 100%;
+    position: absolute;
+}
+
+.posiconom {
+    left: -25px;
+}
+
+.posicomai {
+    left: -25px;
+}
+
+.posicopho {
+    left: -25px;
+}
+
+.posicocom {
+    left: -25px;
+}
+
+.ft1 {
+    width: 90%;
+}
+
+.ft2 {
+    width: 90%;
+}
+
+.ft3 {
+    width: 200px;
+    margin-right: 25%;
+}
+
+footer {
+    height: 60px;
+    margin-top: 500px;
+    font-size: 3rem;
+    padding-top: 10px;
+}
+
+
+/*Text Format*/
+
+#square {
+    font-size: 2.25rem;
+    color: #CCCCCC;
+}
+
+#ico {
+    font-size: 2rem;
+    color: #CCCCCC;
+    margin-left: 50px;
+}
+
+h1 {
+    font-size: 3.0rem;
+    padding-top: 20px;
+}
+
+h2 {
+    font-size: 2.0rem;
+}
+
+h3 {
+    font-size: 1rem;
+}
+
+.bold {
+    font-size: 1rem;
+}
+
+.normlist {
+    padding-bottom: 10px;
+}
+
+.stdtxt {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
